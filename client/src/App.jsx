@@ -5,12 +5,14 @@ import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
 import Skills from './pages/skills/Skills'
+import {ToastContainer} from 'react-toastify'
 
 export default function App() {
   return (
-    <>
+    < >
     <BrowserRouter>
-    <Navbar title="Portfolio" home="Home"/>
+    <ToastContainer/>
+     <Navbar title="Portfolio" home="Home"/>
       <Home/>
       <About/>
       <Skills/>

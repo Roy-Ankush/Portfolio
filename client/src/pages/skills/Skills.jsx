@@ -33,7 +33,7 @@ function Skills() {
           <h2 className="p-1 text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-orange-950">
             Professional Skillset
           </h2>
-          <div className=" grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-8 gap-y-1">
+          <div className=" grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-1">
           
           <Cards image={c}/>
           <Cards image={java}/>
