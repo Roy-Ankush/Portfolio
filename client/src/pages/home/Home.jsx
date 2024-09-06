@@ -9,23 +9,24 @@ function Home() {
 
   return (
     <>
-      <div className='bg-cover bg-center text-center text-white bg-[#28405b] py-16 overflow-x-hidden' id='home'>
+      <div className='bg-cover bg-center text-center text-white bg-[#28405b] py-10 overflow-x-hidden' id='home'>
         <div className='max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className="image-wrapper">
             <img
               src={mernimage}
               alt="mernimage"
-             className=' mx-auto mb-8  h-80 w-auto rounded-md object-cover transfprm transition-transform duration-300 hover:scale-105'
+              className=' mx-auto mb-8  h-80 w-auto rounded-md object-cover transfprm transition-transform duration-300 hover:scale-105'
             />
           </div>
           <h1 className='text-4xl font-bold mt-8'>
-            I am{" "}
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Ankush Kumar</span>
+            Hi, I'm
+            <span className='text-transparent bg-clip-text p-0 bg-gradient-to-r from-green-400 to-blue-500'>Ankush Kumar,</span>
             <br />
-            Mern stack developer
+            a<span className='text-transparent bg-clip-text bg-gradient-to-r p-0 from-green-400 to-blue-500'>Mern </span>Stack Developer
           </h1>
-          <p className='mt-4 text-lg text-gray-400'>I am specialized</p>
-          <div className='mt-8 space-x-4'>
+          <p className=' mt-1 text-lg'><span className='text-sm text-white'>I build responsive web applications with </span> <br />
+            <span className='text-sm text-white'>focus on performance and user experience</span> </p>
+          <div className='mt-5 space-x-4'>
             <Link
               to="contact"
               spy={true}
@@ -38,7 +39,7 @@ function Home() {
             </Link>
             <button className='bg-gradient-to-r from-green-400  to-blue-400 text-black font-medium transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
               Resume
-            </button> 
+            </button>
           </div>
         </div>
       </div>

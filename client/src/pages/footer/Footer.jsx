@@ -1,9 +1,11 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#27374D] text-white py-4">
+    // bg-[#27374D]
+    <footer className="bg-[#1c2b41] text-white py-4">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left">
@@ -16,8 +18,8 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-400">
                 <FaFacebookF size={24} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
-                <FaTwitter size={24} />
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-gray-950">
+                <FaXTwitter size={24} />
               </a>
               <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-500">
                 <FaLinkedinIn size={24} />

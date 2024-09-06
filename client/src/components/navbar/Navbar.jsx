@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import { Link } from 'react-scroll';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar(props) {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar(props) {
   return (
     <nav className={styles.navbar}>
       <div className={styles.top}>
-        <i className={`bi bi-list ${styles.bi}`} onClick={toggleMenu}></i>
+        <i className={`bi bi-list ${styles.bi}`} onClick={toggleMenu}><GiHamburgerMenu /></i>
         <span className="span1">{props.title}</span>
       </div>
       <div className={`${styles.list_item} ${isMenuOpen ? styles.main2 : ''}`} id="l">
