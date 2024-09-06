@@ -52,10 +52,10 @@ Portfolio web application with HTML, CSS, JavaScript,React, Nodejs and Express
 
 <h2 align="center">Responsiveness</h2>
 <p align="center">
-    <img src="./images/res1.png" height="300" style="margin-right: 10px;">
-    <img src="./images/res2.png" height="300" style="margin-right: 10px;">
-    <img src="./images/res3.png" height="300" style="margin-right: 10px;">
-    <img src="./images/res4.png" height="300">
+    <img src="./images/res1.png" height="350" style="margin-right: 10px;">
+    <img src="./images/res2.png" height="350" style="margin-right: 10px;">
+    <img src="./images/res3.png" height="350" style="margin-right: 10px;">
+    <img src="./images/res4.png" height="350">
 </p>
 
 
