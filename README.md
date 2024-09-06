@@ -72,13 +72,13 @@ REFRESH_TOKEN = 'your refresh token'
 EMAIL='Receivers email id'
 PORT=8000
 ```
-3. Start server side
+4. Start server side
 ```
 cd server
 npm install
 npm start
 ```
-4. Start client side
+5. Start client side
 ```
 cd client
 npm install
