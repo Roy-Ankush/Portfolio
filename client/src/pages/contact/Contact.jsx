@@ -27,7 +27,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8000/contact', {
+      const response = await fetch('https://ankush-portfolio-w9wt.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
