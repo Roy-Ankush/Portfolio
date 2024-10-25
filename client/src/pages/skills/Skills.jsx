@@ -27,6 +27,7 @@ import todo from '../../assets/todo.png';
 import weathe from '../../assets/weathe.png';
 import movie from '../../assets/cinema.png';
 import place from '../../assets/place.png';
+import express from '../../assets/express.png';
 
 
 function Skills() {
@@ -38,35 +39,54 @@ function Skills() {
             Professional Skillset
           </h2>
           <div className=" grid  grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-x-8 gap-y-1">
-          
-          <Cards image={c} name="c"/>
-          <Cards image={java} name="Java"/>
-          <Cards image={python} name="Python"/>
-          <Cards image={html} name="HTML"/>
-          <Cards image={css} name="CSS"/>
-          <Cards image={bs} name="Bootstrap"/>
-          <Cards image={js} name="JavaScript"/>
-          <Cards image={jquery} name="jQuery"/>
-          <Cards image={node} name="Nodejs"/>
-          <Cards image={reactjs} name="Reactjs"/>
-          <Cards image={tw} name="Tailwind"/>
-          <Cards image={mongo} name="MongoDB"/>
-          <Cards image={sql} name="SQL"/>
-          <Cards image={django} name="Django"/>
-          
+
+            <Cards image={c} name="c" />
+            <Cards image={java} name="Java" />
+            <Cards image={python} name="Python" />
+            <Cards image={html} name="HTML" />
+            <Cards image={css} name="CSS" />
+            <Cards image={bs} name="Bootstrap" />
+            <Cards image={js} name="JavaScript" />
+            <Cards image={jquery} name="jQuery" />
+            <Cards image={node} name="Nodejs" />
+            <Cards image={reactjs} name="Reactjs" />
+            <Cards image={tw} name="Tailwind" />
+            <Cards image={mongo} name="MongoDB" />
+            <Cards image={sql} name="SQL" />
+            <Cards image={django} name="Django" />
+            <Cards image={express} name="Express" />
+            <Cards
+              image="https://redux-toolkit.js.org/img/redux.svg"
+              name="Redux Toolkit"
+            />
+
+            <Cards
+              image="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
+              name="AngularJS"
+            />
+
+
+
+
           </div>
 
           <h2 className="p-1 text-4xl font-bold text-center mt-24 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 ">
             Tools I use
           </h2>
-          <div className="  grid mb-10 grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-x-8 gap-y-1">        
-          <Cards image={vscode} name="VS Code"/>
-          <Cards image={eclipse} name="Eclipse"/>
-          <Cards image={pyc} name="PyCharm"/>
-          <Cards image={jptr} name="Jupyter"/>
-          <Cards image={pm} name="Postman"/>
-          <Cards image={rplit} name="Replit"/>
-          <Cards image={git} name="Git"/>
+          <div className="  grid mb-10 grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-x-8 gap-y-1">
+            <Cards image={vscode} name="VS Code" />
+            <Cards image={eclipse} name="Eclipse" />
+            <Cards image={pyc} name="PyCharm" />
+            <Cards image={jptr} name="Jupyter" />
+            <Cards image={pm} name="Postman" />
+            <Cards image={rplit} name="Replit" />
+            <Cards image={git} name="Git" />
+            <Cards
+              image="https://img.icons8.com/?size=512&id=61466&format=png"
+              name="IntelliJ IDEA"
+            />
+
+
           </div>
 
 
@@ -75,14 +95,14 @@ function Skills() {
           </h2>
           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-5 sm:gap-x-0 gap-y-1">
 
-            <Card title="Todo List" image={todo} details="A to-do list app built with HTML, CSS, and JavaScript. Users can add, edit and delete tasks. Demonstrates my DOM manipulation and jQuery skills"  link="https://github.com/Roy-Ankush/Todo_List"/>
+            <Card title="Todo List" image={todo} details="A to-do list app built with HTML, CSS, and JavaScript. Users can add, edit and delete tasks. Demonstrates my DOM manipulation and jQuery skills" link="https://github.com/Roy-Ankush/Todo_List" />
 
             <Card title="Weather App" image={weathe} details="I built a weather application using HTML, CSS, and JavaScript, app fetches real-time weather data and displays it dynamically. Demonstrating my API handling and asynchronous JavaScript skills" link="https://github.com/Roy-Ankush/Weather_App" />
 
             <Card title="Movie Ticket-Booking" image={movie} details="I learned to implement full-stack development by integrating API calls, connecting the frontend and backend, and managing data flow between React, Node.js, Express, and MongoDB effectively." link="https://github.com/Roy-Ankush/Movie_Ticket" />
 
             <Card title="Placement Management" image={place} details="I implementing role-based authentication and authorization, parsing PDFs for to fetch student marks and display detailed information regarding their placements." link="https://github.com/Roy-Ankush/CMRIT_PLACEMENT_MANAGEMENT_SYSTEM" />
-            
+
           </div>
 
 

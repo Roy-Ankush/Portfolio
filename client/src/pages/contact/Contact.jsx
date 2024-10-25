@@ -73,11 +73,11 @@ function Contact() {
               </p>
               <div className='mb-4 mt-4'>
                 <FaEnvelope className='inline-block text-green-300 mr-2' />
-                <NavLink to=''>akr02003@gmail.com</NavLink>
+                <NavLink to=''>ankushkumardevv@gmail.com</NavLink>
               </div>
               <div className='mb-4'>
                 <FaPhone className='inline-block text-green-300 mr-2' />
-                <NavLink to=''>+90 6203445778</NavLink>
+                <NavLink to=''>+91 6203335229</NavLink>
               </div>
               <div className='mb-4'>
                 <FaLocationPin className='inline-block text-green-300 mr-2' />

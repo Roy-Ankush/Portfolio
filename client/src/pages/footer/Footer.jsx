@@ -15,16 +15,16 @@ const Footer = () => {
           <div className="mt-8 md:mt-0">
             <h2 className="text-xl font-bold mb-2 text-center">Follow Me</h2>
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-400">
+              <a href="https://www.facebook.com/profile.php?id=100014371501131" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-400">
                 <FaFacebookF size={24} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-gray-950">
+              <a href="https://x.com/AnkushRoy180266" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-gray-950">
                 <FaXTwitter size={24} />
               </a>
-              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-500">
+              <a href="https://www.linkedin.com/in/ankush-kumar-925b37256/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-500">
                 <FaLinkedinIn size={24} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+              <a href="https://www.instagram.com/ankush_roy_2190/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
                 <FaInstagram size={24} />
               </a>
               <a href="https://github.com/Roy-Ankush" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300">
