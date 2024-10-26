@@ -27,7 +27,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://ankush-portfolio-w9wt.onrender.com', {
+      const response = await fetch('http://localhost:8000/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,8 +45,9 @@ function Contact() {
           autoClose: 2000,
           pauseOnHover: false
         })
-      } else {
-        // Handle error
+      } 
+      else {
+        console.log(response.error)
         console.error('Failed to send message');
       }
     } catch (error) {

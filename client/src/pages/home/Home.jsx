@@ -20,7 +20,7 @@ function Home() {
           </div>
           <h1 className='text-4xl font-bold mt-8'>
             Hi, I'm
-            <span className='text-transparent bg-clip-text p-0 bg-gradient-to-r from-green-400 to-blue-500'> Ankush Kumar,</span>
+            <span className='text-transparent bg-clip-text p-0 bg-gradient-to-r from-green-400 to-blue-500'> Ankush,</span>
             <br />
             a<span className='text-transparent bg-clip-text bg-gradient-to-r p-0 from-green-400 to-blue-500'>Mern </span>Stack Developer
           </h1>
