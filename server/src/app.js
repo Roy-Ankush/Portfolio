@@ -58,7 +58,9 @@ async function sendMail(name, email, message) {
     throw error;
   }
 }
-
+app.get('/',(req,res)=>{
+  res.send("server is running.......");
+});
 app.post('/contact', async (req, res) => {
   const { name, email, message } = req.body;
   try {
