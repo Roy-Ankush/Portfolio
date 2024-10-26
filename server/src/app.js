@@ -9,7 +9,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-  origin: "https://ankush-portfolio-it0v.onrender.com",
+  origin: "http://localhost:5173",
   methods: ['GET', 'POST'], 
   credentials: true, 
 }));
@@ -65,9 +65,10 @@ app.post('/contact', async (req, res) => {
   const { name, email, message } = req.body;
   try {
     await sendMail(name, email, message);
-    res.status(200).send('Your message has been sent successfully.');
+    res.status(200).json({ message: 'Your message has been sent successfully.' });
   } catch (error) {
-    res.status(500).send('There was an error sending your message.');
+    console.error('Error sending email:', error);
+    res.status(500).json({ message: 'There was an error sending your message.', error: error.message });
   }
 });
 
